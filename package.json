@@ -1,0 +1,11 @@
+{
+  "name": "lifx-sniffer",
+  "version": "1.0.0",
+  "description": "Tool for sniffing LIFX traffic.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitch Denny <mitch@mitchdenny.com> (http://mitchdenny.com/)",
+  "license": "ISC"
+}
