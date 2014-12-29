@@ -1,9 +1,9 @@
 var network = require('./network');
-var udpListener = network.createUdpListener();
+var listener = network.createListener();
 
-udpListener.on('packet', function(packet) {
+listener.on('packet', function(packet) {
   console.log(packet);
-  udpListener.stop();
+  listener.stop();
 });
 
-udpListener.start();
+listener.start();
